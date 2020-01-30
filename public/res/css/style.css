@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../font/Roboto.ttf') format('ttf');
+}
+
+body {
+  background-color: #EEE;
+  margin: 0px;
+  font-family: 'Roboto';
+  text-transform: uppercase;
+}
+
+div.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.title {
+  color: #C62828;
+  font-size: 1.5rem;
+}
+
+.subtitle {
+  color: #9A0007;
+  font-size: 0.8rem;
+}
