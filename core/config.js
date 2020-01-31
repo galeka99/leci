@@ -1,5 +1,5 @@
 module.exports = {
-  port           : process.env.NODE_ENV == "production" ? 3000 : 8080,
+  port           : process.env['NODE_ENV'] == "production" ? 3000 : 8080,
 
   //=================== CORS CONFIGURATION ===================//
   cors           : {
@@ -17,7 +17,7 @@ module.exports = {
 
   //================= DATABASE CONFIGURATION ================//
   database       : {
-    enable        : true,
+    enable        : false,
     dialect       : "mysql",
     logging       : false,
     pool          : {
